@@ -1,0 +1,244 @@
+/* --------------------------------------------------
+   Base
+-----------------------------------------------------*/
+
+a{color: #fff; text-decoration: none;}
+::selection { background: rgba(0, 166, 266, 0.8); color:#fff;}
+::-moz-selection { background: rgba(0, 166, 266, 0.8); color:#fff;}
+html, body{background-color: transparent; color: #fff;}
+
+
+/* --------------------------------------------------
+   Typography
+-----------------------------------------------------*/
+html, body, h1, h3, h4, nav{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    letter-spacing: -1px;
+}
+
+.unsubscribe, .subscribe, h5, h6, h2, p{
+    font-family: 'Comic Sans MS', serif;
+    letter-spacing: -1px;
+}
+
+h2{
+    padding-left: 80px;
+    text-align: left;
+    color: #bdbdbd;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+h3{
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+    word-spacing: 10px;
+}
+
+h4{
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h5{
+    color: #323977;
+    font-weight: 100;
+    margin: 10px 0 5px 0;
+}
+
+h6{
+    color: #626173;
+    font-weight: 100;
+    margin: 10px 0 5px 0;
+    font-size: 10px;
+}
+
+p{
+    color: #626173;
+    font-weight: 100;
+    margin: 10px 0 5px 0;
+}
+
+.names{
+    font-size: 30px;
+}
+
+/* --------------------------------------------------
+   Header, Footer & Navigation
+-----------------------------------------------------*/
+
+/* Inline Navigation */
+
+.inlineNav, nav ul, nav:before{
+    text-align: center;
+}
+
+.inlineNav li, nav ul li, nav:before, nav li a{
+    display: inline-block;
+    float: none;
+}
+
+nav .inline-list > li, nav:before{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Main Navigation */
+nav, nav:before, ul{
+    margin: 10px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 200;
+}
+
+nav li a, nav:before{
+    line-height: 50px;
+    float: left;
+}
+
+html, body {margin: 0; height: 100%; overflow-x: hidden}
+
+@media (max-width: 900px) { /* для экранов, меньше 800px, см про адаптивную вёрстку */
+    .inlineNav li, nav ul li, nav:before, nav li a{
+        text-align: center;
+        display: flex;
+    }
+    .img_event{
+        display: none;
+    }
+    .img_eventb{
+        margin-top: -300px;
+    }
+    .subscribee{
+
+    }
+    .unsubscribee{
+        padding-right: -35px;
+    }
+}
+
+.pm{
+}
+
+.pm:hover{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/*-----------*/
+
+
+body{
+    background-attachment: fixed;
+    background-color: #2685b3;
+}
+
+body.homePage{
+    background:  url(images/cfcback.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+body.contactPage{
+    background-attachment: fixed;
+    background-color: #2685b3;
+}
+
+.cfcsmall{
+    float: left;
+    margin-bottom: -35px;
+}
+
+.cfcsmall:hover{
+    outline: none;
+}
+
+.subscribee{
+    border-radius: 20px;
+    color: white;
+    background-color: #323977;
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.unsubscribee {
+    display: block;
+    color: #323977;
+    font-size: 10px;
+    padding-top: 13px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+input[type="text"]{
+    border: 3px solid #323977;
+    border-radius: 20px;
+    height: 24px;
+    width: 202px;
+    color: #cccccc;
+    font-size: 10px;
+    font-family: 'Comic Sans MS', serif;
+    letter-spacing: -1px;
+}
+
+/* --------------------------------------------------
+   Services
+-----------------------------------------------------*/
+.servicesHolder{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 0 30px 0;
+    bottom: 0;
+}
+
+.servicesHolder p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.servicesHolder h3{
+    display: inline-block;
+    margin: 10px 0 40px 0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.small-6:hover{
+    background-color: #dcd8dd;
+}
+
+.fixxed{
+    overflow: scroll;
+    height: 151px;
+    background-color: white;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.fixxxed{
+    height: 333px;
+}
+
+.fixxxed:hover .projes{
+    border-top: 1px solid #323977;
+}
+
+.projes{
+    text-align: left;
+}
+
+
+
+
